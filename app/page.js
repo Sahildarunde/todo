@@ -30,7 +30,7 @@ const page = () => {
               <h5 className='text-2xl font-semibold'>{t.title}</h5>
               <p className='text-xl '>{t.desc}</p>
             </div>
-            <button onClick={(i)=>{
+            <button onClick={()=>{
               deleteHandeler(i);
             }} className='px-6 py-3 border-red-100 bg-red-600 text-white font-bold rounded-xl'>Delete</button>
           </li>
